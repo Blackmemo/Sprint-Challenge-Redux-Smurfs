@@ -2,27 +2,86 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.formCon {
+  height: 602px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.formBtn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  outline: none;
+  cursor: pointer;
+  background-image: url('http://www.liketotally80s.com/wp-content/uploads/2014/08/smurfs-characters.png');
+  background-size: contain;
+  background-color: rgb(190, 189, 189);
+font-size: 25px;
+font-weight: bold;
+color: #6393c1;
+-webkit-text-stroke: 2px rgb(8, 8, 8);
+
 }
 
-.App-title {
-  font-size: 1.5em;
+.addForm {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 300px;
+  border: 1px solid black;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px gray;
+  background: -webkit-linear-gradient(-45deg, #cfe7fa 0%,#6393c1 100%);
 }
 
-.App-intro {
-  font-size: large;
-}
+ 
+input {
+  outline: none;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+  }
+
+  nav {
+  display: flex;
+  justify-content: center;
+  background: -webkit-linear-gradient(-45deg, #b8e1fc 0%,#a9d2f3 10%,#90bae4 19%,#90bcea 30%,#90bff0 43%,#6ba8e5 56%,#a2daf5 83%,#bdf3fd 97%);
+  }
+
+  nav p {
+    margin: 10px 15px 20px 15px;
+  }
+
+  .dBtn {
+    font-size: 25px;
+    display: flex;
+    margin-top: -20px;
+    color: red;
+    cursor: pointer;
+    width: 10px;
+  }
+
+  .smurfHold {
+    border: 1px solid black;
+    margin: 25px auto;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 20px;
+    background: -webkit-linear-gradient(-45deg, #cfe7fa 0%,#6393c1 100%);
+  }
+
+  .smurfH1 {
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(7, 192, 209), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .smurfAtts {
+    font-weight: bolder;
+  }
